@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.3 (11971 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="2707498641" visible="true" version="1" changeset="20993737" timestamp="2014-03-08T20:08:15Z" user="chihchun" uid="973373" lat="23.4768359" lon="120.4403662">
+  <tag k="addr:housenumber" v="659"/>
+  <tag k="addr:street" v="中山路"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="台灣菸酒公賣局嘉義分局"/>
+ </node>
+</osm>

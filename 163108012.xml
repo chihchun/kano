@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.3 (11986 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="1748785802" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4802419" lon="120.4662357"/>
+ <node id="1748785806" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4802616" lon="120.4653345"/>
+ <node id="1748785809" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4801829" lon="120.4658066"/>
+ <node id="1748785811" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4807930" lon="120.4648410"/>
+ <node id="1748785812" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4812063" lon="120.4665576"/>
+ <node id="1748785814" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4801804" lon="120.4656354"/>
+ <node id="1748785815" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4804264" lon="120.4664616"/>
+ <node id="1748785817" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4805568" lon="120.4649590"/>
+ <node id="1748785820" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4805470" lon="120.4665683"/>
+ <node id="1748785824" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4809603" lon="120.4648517"/>
+ <node id="1748785825" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4801804" lon="120.4654960"/>
+ <node id="1748785827" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4808914" lon="120.4648302"/>
+ <node id="1748785829" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4803206" lon="120.4652165"/>
+ <node id="1748785845" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:14Z" user="費達諾" uid="651429" lat="23.4818558" lon="120.4660104"/>
+ <node id="1748785847" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:15Z" user="費達諾" uid="651429" lat="23.4802026" lon="120.4660855"/>
+ <node id="1748785849" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:15Z" user="費達諾" uid="651429" lat="23.4806626" lon="120.4648844"/>
+ <node id="1748785854" visible="true" version="1" changeset="11569147" timestamp="2012-05-11T17:18:15Z" user="費達諾" uid="651429" lat="23.4803994" lon="120.4651092"/>
+ <node id="1748785822" visible="true" version="2" changeset="20815214" timestamp="2014-02-27T19:25:21Z" user="Jonathan Tsai" uid="1903826" lat="23.4818407" lon="120.4654557"/>
+ <node id="2693187413" visible="true" version="1" changeset="20815214" timestamp="2014-02-27T19:25:20Z" user="Jonathan Tsai" uid="1903826" lat="23.4807725" lon="120.4666603"/>
+ <node id="2693187414" visible="true" version="1" changeset="20815214" timestamp="2014-02-27T19:25:20Z" user="Jonathan Tsai" uid="1903826" lat="23.4809222" lon="120.4667066"/>
+ <node id="1748785850" visible="true" version="2" changeset="20815214" timestamp="2014-02-27T19:25:21Z" user="Jonathan Tsai" uid="1903826" lat="23.4810805" lon="120.4666634"/>
+ <node id="1748785819" visible="true" version="2" changeset="20815214" timestamp="2014-02-27T19:25:21Z" user="Jonathan Tsai" uid="1903826" lat="23.4806849" lon="120.4666295"/>
+ <node id="1748785852" visible="true" version="2" changeset="20815214" timestamp="2014-02-27T19:25:21Z" user="Jonathan Tsai" uid="1903826" lat="23.4808572" lon="120.4666973"/>
+ <node id="1748785804" visible="true" version="2" changeset="20815214" timestamp="2014-02-27T19:25:21Z" user="Jonathan Tsai" uid="1903826" lat="23.4810070" lon="120.4667189"/>
+ <node id="1748785801" visible="true" version="2" changeset="20815214" timestamp="2014-02-27T19:25:21Z" user="Jonathan Tsai" uid="1903826" lat="23.4803005" lon="120.4663461"/>
+ <node id="1748785807" visible="true" version="2" changeset="20815214" timestamp="2014-02-27T19:25:21Z" user="Jonathan Tsai" uid="1903826" lat="23.4801875" lon="120.4659702"/>
+ <way id="163108012" visible="true" version="3" changeset="20815267" timestamp="2014-02-27T19:28:42Z" user="Jonathan Tsai" uid="1903826">
+  <nd ref="1748785822"/>
+  <nd ref="1748785824"/>
+  <nd ref="1748785827"/>
+  <nd ref="1748785811"/>
+  <nd ref="1748785849"/>
+  <nd ref="1748785817"/>
+  <nd ref="1748785854"/>
+  <nd ref="1748785829"/>
+  <nd ref="1748785806"/>
+  <nd ref="1748785825"/>
+  <nd ref="1748785814"/>
+  <nd ref="1748785809"/>
+  <nd ref="1748785807"/>
+  <nd ref="1748785847"/>
+  <nd ref="1748785802"/>
+  <nd ref="1748785801"/>
+  <nd ref="1748785815"/>
+  <nd ref="1748785820"/>
+  <nd ref="1748785819"/>
+  <nd ref="2693187413"/>
+  <nd ref="1748785852"/>
+  <nd ref="2693187414"/>
+  <nd ref="1748785804"/>
+  <nd ref="1748785850"/>
+  <nd ref="1748785812"/>
+  <nd ref="1748785845"/>
+  <nd ref="1748785822"/>
+  <tag k="addr:city" v="嘉義市"/>
+  <tag k="addr:street" v="山仔頂249-1號"/>
+  <tag k="leisure" v="pitch"/>
+  <tag k="name" v="市立棒球場"/>
+  <tag k="phone" v="05-2754225"/>
+  <tag k="source" v="http://stadium.cy.edu.tw/new/?ln=showfields&amp;id=2"/>
+  <tag k="sport" v="baseball"/>
+ </way>
+</osm>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.3 (12572 thorn-01.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="2512532563" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4800105" lon="120.4496627"/>
+ <node id="2512532564" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4800039" lon="120.4497073"/>
+ <node id="2512532565" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4797723" lon="120.4496668"/>
+ <node id="2512532566" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4797775" lon="120.4496266"/>
+ <node id="2512532567" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4799838" lon="120.4497466"/>
+ <node id="2512532568" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4799525" lon="120.4497762"/>
+ <node id="2512532569" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4799139" lon="120.4497922"/>
+ <node id="2512532570" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4798726" lon="120.4497929"/>
+ <node id="2512532571" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4798335" lon="120.4497782"/>
+ <node id="2512532572" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4798014" lon="120.4497498"/>
+ <node id="2512532573" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4797801" lon="120.4497111"/>
+ <node id="2512532574" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4797939" lon="120.4495901"/>
+ <node id="2512532575" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4798199" lon="120.4495609"/>
+ <node id="2512532576" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4798528" lon="120.4495419"/>
+ <node id="2512532577" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4798895" lon="120.4495349"/>
+ <node id="2512532578" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4799264" lon="120.4495406"/>
+ <node id="2512532579" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:57Z" user="劉志昌" uid="1731748" lat="23.4799599" lon="120.4495585"/>
+ <node id="2512532580" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:58Z" user="劉志昌" uid="1731748" lat="23.4799867" lon="120.4495868"/>
+ <node id="2512532581" visible="true" version="1" changeset="18597035" timestamp="2013-10-29T08:20:58Z" user="劉志昌" uid="1731748" lat="23.4800041" lon="120.4496227"/>
+ <way id="243895146" visible="true" version="2" changeset="18597042" timestamp="2013-10-29T08:21:24Z" user="劉志昌" uid="1731748">
+  <nd ref="2512532574"/>
+  <nd ref="2512532575"/>
+  <nd ref="2512532576"/>
+  <nd ref="2512532577"/>
+  <nd ref="2512532578"/>
+  <nd ref="2512532579"/>
+  <nd ref="2512532580"/>
+  <nd ref="2512532581"/>
+  <nd ref="2512532563"/>
+  <nd ref="2512532564"/>
+  <nd ref="2512532567"/>
+  <nd ref="2512532568"/>
+  <nd ref="2512532569"/>
+  <nd ref="2512532570"/>
+  <nd ref="2512532571"/>
+  <nd ref="2512532572"/>
+  <nd ref="2512532573"/>
+  <nd ref="2512532565"/>
+  <nd ref="2512532566"/>
+  <nd ref="2512532574"/>
+  <tag k="leisure" v="park"/>
+  <tag k="name" v="中央噴水池"/>
+ </way>
+</osm>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.3 (11992 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="2673183523" visible="true" version="1" changeset="20580321" timestamp="2014-02-15T16:38:42Z" user="ray S" uid="565515" lat="23.4812884" lon="120.4690181">
+  <tag k="name" v="射日塔"/>
+  <tag k="wikipedia" v="zh:%E5%B0%84%E6%97%A5%E5%A1%94"/>
+ </node>
+</osm>

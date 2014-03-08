@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.3 (11979 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="1977522296" visible="true" version="2" changeset="14148167" timestamp="2012-12-04T04:53:03Z" user="mixmaxtw" uid="9785" lat="23.4813309" lon="120.4634836"/>
+ <node id="1977522297" visible="true" version="2" changeset="14148167" timestamp="2012-12-04T04:53:03Z" user="mixmaxtw" uid="9785" lat="23.4825206" lon="120.4633082"/>
+ <node id="1977522291" visible="true" version="3" changeset="19861885" timestamp="2014-01-07T12:19:09Z" user="egret" uid="521877" lat="23.4823071" lon="120.4612217"/>
+ <node id="1977522292" visible="true" version="3" changeset="19861885" timestamp="2014-01-07T12:19:09Z" user="egret" uid="521877" lat="23.4814996" lon="120.4626368"/>
+ <node id="1977522295" visible="true" version="3" changeset="19861885" timestamp="2014-01-07T12:19:09Z" user="egret" uid="521877" lat="23.4812203" lon="120.4634182"/>
+ <node id="1977522298" visible="true" version="3" changeset="19861885" timestamp="2014-01-07T12:19:09Z" user="egret" uid="521877" lat="23.4814274" lon="120.4613390"/>
+ <node id="1977522299" visible="true" version="3" changeset="19861885" timestamp="2014-01-07T12:19:09Z" user="egret" uid="521877" lat="23.4811317" lon="120.4626294"/>
+ <way id="186995516" visible="true" version="4" changeset="20992379" timestamp="2014-03-08T18:59:05Z" user="chihchun" uid="973373">
+  <nd ref="1977522297"/>
+  <nd ref="1977522296"/>
+  <nd ref="1977522295"/>
+  <nd ref="1977522299"/>
+  <nd ref="1977522292"/>
+  <nd ref="1977522298"/>
+  <nd ref="1977522291"/>
+  <nd ref="1977522297"/>
+  <tag k="amenity" v="school"/>
+  <tag k="name" v="國立嘉義高商"/>
+  <tag k="name:en" v="National Chia-Yi Senior Commercial Vocational School"/>
+  <tag k="phone" v="+886-5-278-2421"/>
+  <tag k="short_name" v="嘉義高商"/>
+  <tag k="website" v="http://www.cyvs.cy.edu.tw/"/>
+  <tag k="wikipedia" v="zh:國立嘉義高級商業職業學校"/>
+ </way>
+</osm>

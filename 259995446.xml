@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.3 (16826 thorn-03.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="259995446" visible="true" version="5" changeset="20992379" timestamp="2014-03-08T18:59:05Z" user="chihchun" uid="973373" lat="23.4790910" lon="120.4411812">
+  <tag k="name:en" v="Chiayi Station"/>
+  <tag k="name:zh" v="台鐵嘉義車站"/>
+  <tag k="railway" v="station"/>
+  <tag k="wikipedia" v="zh:嘉義車站"/>
+ </node>
+</osm>

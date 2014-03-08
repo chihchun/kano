@@ -101,7 +101,8 @@ var map = new L.Map('map', {
 
 
 $.ajax({
-    url: "http://www.openstreetmap.org/api/0.6/node/2707557103",
+    // url: "http://www.openstreetmap.org/api/0.6/node/2707557103",
+    url: "2707557103.xml",
     dataType: "xml",
     success: function (xml) {
         new L.OSM.DataLayer(xml).addTo(map).bindPopup('嘉義市北門町五丁目104番地 吉川山陽堂');
@@ -109,7 +110,8 @@ $.ajax({
 });
 
 $.ajax({
-    url: "http://www.openstreetmap.org/api/0.6/node/2707498641",
+    // url: "http://www.openstreetmap.org/api/0.6/node/2707498641",
+    url: "2707498641.xml",
     dataType: "xml",
     success: function (xml) {
         new L.OSM.DataLayer(xml).addTo(map).bindPopup('KANO精神-臺灣棒球精神主題展 2014.2.14~5.18');
@@ -117,7 +119,8 @@ $.ajax({
 });
 
 $.ajax({
-    url: "http://www.openstreetmap.org/api/0.6/node/2673183523",
+    // url: "http://www.openstreetmap.org/api/0.6/node/2673183523",
+    url: "2673183523.xml",
     dataType: "xml",
     success: function (xml) {
         new L.OSM.DataLayer(xml).addTo(map).bindPopup('嘉義神社，現為射日塔');
@@ -125,7 +128,8 @@ $.ajax({
 });
 
 $.ajax({
-    url: "http://www.openstreetmap.org/api/0.6/node/259995446",
+    // url: "http://www.openstreetmap.org/api/0.6/node/259995446",
+    url: "259995446.xml",
     dataType: "xml",
     success: function (xml) {
         new L.OSM.DataLayer(xml).addTo(map).bindPopup('嘉義駅');
@@ -133,7 +137,8 @@ $.ajax({
 });
 
 $.ajax({
-    url: "http://www.openstreetmap.org/api/0.6/way/243895146/full",
+    // url: "http://www.openstreetmap.org/api/0.6/way/243895146/full",
+    url: "243895146.xml",
     dataType: "xml",
     success: function (xml) {
         new L.OSM.DataLayer(xml).addTo(map).bindPopup('中央噴水池');
@@ -141,7 +146,8 @@ $.ajax({
 });
 
 $.ajax({
-    url: "http://www.openstreetmap.org/api/0.6/way/163108012/full",
+    // url: "http://www.openstreetmap.org/api/0.6/way/163108012/full",
+    url: "163108012.xml",
     dataType: "xml",
     success: function (xml) {
         new L.OSM.DataLayer(xml).addTo(map).bindPopup('嘉義市立公園野球場');
@@ -149,7 +155,8 @@ $.ajax({
 });
 
 $.ajax({
-    url: "http://www.openstreetmap.org/api/0.6/way/186995516/full",
+    // url: "http://www.openstreetmap.org/api/0.6/way/186995516/full",
+    url: "186995516.xml",
     dataType: "xml",
     success: function (xml) {
         new L.OSM.DataLayer(xml).addTo(map).bindPopup('臺南州立嘉義農林學校');
