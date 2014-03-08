@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>日治時代嘉義地圖</title>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="leaflet-osm.js"></script>
+        <style>
+#map { height: 100%; width:100% }
+        </style>
+    </head>
+    <body>
+<div id="map"></div>
+<script>
+L.ASCCGIS = {};
+L.ASCCGIS.TileLayer = L.TileLayer.extend({
+  options: {
+    attribution: '© <a target="_target" href="http://gis.ascc.net">ASCC GIS</a>'
+  },
+
+  initialize: function (options) {
+    options = L.Util.setOptions(this, options);
+    L.TileLayer.prototype.initialize.call(this, options.url);
+  },
+
+  getTileUrl: function (tilePoint) {
+      return L.Util.template(this._url, L.extend({
+        s: this._getSubdomain(tilePoint),
+        z: (17 - tilePoint.z),
+        x: tilePoint.x,
+        y: tilePoint.y
+    }, this.options));
+   },
+
+});
+
+L.ASCCGIS.Chiayi1900 = L.ASCCGIS.TileLayer.extend({
+  options: {
+      url: 'http://gis.sinica.edu.tw/googlemap/chiayi_1900/{z}/{x}/IMG_{x}_{y}_{z}.png',
+      minZoom: 11,
+      maxZoom: 18,
+  }
+});
+
+L.ASCCGIS.Chiayi1909 = L.ASCCGIS.TileLayer.extend({
+  options: {
+      url: 'http://gis.sinica.edu.tw/googlemap/chiayi_1909/{z}/{x}/IMG_{x}_{y}_{z}.png',
+      minZoom: 11,
+      maxZoom: 18,
+  }
+});
+
+L.ASCCGIS.Chiayi1931 = L.ASCCGIS.TileLayer.extend({
+  options: {
+      url: 'http://gis.sinica.edu.tw/googlemap/chiayi_1931/{z}/{x}/IMG_{x}_{y}_{z}.png',
+      minZoom: 11,
+      maxZoom: 18,
+  }
+});
+
+L.ASCCGIS.Chiayi1932 = L.ASCCGIS.TileLayer.extend({
+  options: {
+      url: 'http://gis.sinica.edu.tw/googlemap/chiayi_1932/{z}/{x}/IMG_{x}_{y}_{z}.png',
+      minZoom: 11,
+      maxZoom: 18,
+  }
+});
+
+L.ASCCGIS.Chiayi1936 = L.ASCCGIS.TileLayer.extend({
+  options: {
+      url: 'http://gis.sinica.edu.tw/googlemap/chiayi_1936/{z}/{x}/IMG_{x}_{y}_{z}.png',
+      minZoom: 12,
+      maxZoom: 17,
+  }
+});
+
+
+var osm = new L.OSM.Mapnik(),
+    chiayi1900 = new L.ASCCGIS.Chiayi1900({opacity: 0.7}),
+    chiayi1909 = new L.ASCCGIS.Chiayi1909({opacity: 0.7}),
+    chiayi1931 = new L.ASCCGIS.Chiayi1931({opacity: 0.7}),
+    chiayi1932 = new L.ASCCGIS.Chiayi1932({opacity: 0.7}),
+    chiayi1936 = new L.ASCCGIS.Chiayi1936({opacity: 0.7});
+
+var overlayMaps = {
+    "嘉義市街圖(1900)": chiayi1900,
+    "嘉義市區改正圖(1909)": chiayi1909,
+    "嘉義市街實測圖(1931)": chiayi1931,
+    "嘉義市區計畫平面圖(1932)": chiayi1932,
+    "嘉義市職業別明細圖(1936)": chiayi1936,
+};
+
+// set up the map
+var map = new L.Map('map', {
+    center: new L.LatLng( 23.48050, 120.45328 ),
+    zoom: 15,
+    layers: [osm, chiayi1931]
+} )
+.addControl(new L.Control.Scale())
+.addControl(new L.Control.Layers({"開放街圖": osm}, overlayMaps))
+
+
+$.ajax({
+    url: "http://www.openstreetmap.org/api/0.6/node/2707557103",
+    dataType: "xml",
+    success: function (xml) {
+        new L.OSM.DataLayer(xml).addTo(map).bindPopup('嘉義市北門町五丁目104番地 吉川山陽堂');
+    }
+});
+
+$.ajax({
+    url: "http://www.openstreetmap.org/api/0.6/node/2707498641",
+    dataType: "xml",
+    success: function (xml) {
+        new L.OSM.DataLayer(xml).addTo(map).bindPopup('KANO精神-臺灣棒球精神主題展 2014.2.14~5.18');
+    }
+});
+
+$.ajax({
+    url: "http://www.openstreetmap.org/api/0.6/node/2673183523",
+    dataType: "xml",
+    success: function (xml) {
+        new L.OSM.DataLayer(xml).addTo(map).bindPopup('嘉義神社，現為射日塔');
+    }
+});
+
+$.ajax({
+    url: "http://www.openstreetmap.org/api/0.6/node/259995446",
+    dataType: "xml",
+    success: function (xml) {
+        new L.OSM.DataLayer(xml).addTo(map).bindPopup('嘉義駅');
+    }
+});
+
+$.ajax({
+    url: "http://www.openstreetmap.org/api/0.6/way/243895146/full",
+    dataType: "xml",
+    success: function (xml) {
+        new L.OSM.DataLayer(xml).addTo(map).bindPopup('中央噴水池');
+    }
+});
+
+$.ajax({
+    url: "http://www.openstreetmap.org/api/0.6/way/163108012/full",
+    dataType: "xml",
+    success: function (xml) {
+        new L.OSM.DataLayer(xml).addTo(map).bindPopup('嘉義市立公園野球場');
+    }
+});
+
+$.ajax({
+    url: "http://www.openstreetmap.org/api/0.6/way/186995516/full",
+    dataType: "xml",
+    success: function (xml) {
+        new L.OSM.DataLayer(xml).addTo(map).bindPopup('臺南州立嘉義農林學校');
+    }
+});
+
+</script>
+    </body>
+</html>
