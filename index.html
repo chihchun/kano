@@ -94,11 +94,11 @@ var overlayMaps = {
 var map = new L.Map('map', {
     center: new L.LatLng( 23.48050, 120.45328 ),
     zoom: 15,
-    layers: [osm, chiayi1931]
+    layers: [osm, chiayi1931],
 } )
 .addControl(new L.Control.Scale())
-.addControl(new L.Control.Layers({"開放街圖": osm}, overlayMaps))
-
+.addControl(new L.Control.Layers({"開放街圖": osm}, overlayMaps));
+map.attributionControl.addAttribution('© <a href="http://blog.nutsfactory.net/2014/03/09/chiayi-map-for-kano/" target="_blank">Rex Tsai</a>')
 
 $.ajax({
     // url: "http://www.openstreetmap.org/api/0.6/node/2707557103",
