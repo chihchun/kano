@@ -89,8 +89,7 @@ L.OSM.DataLayer = L.FeatureGroup.extend({
         layer = L.circleMarker(feature.latLng, this.options.styles.node);
       } else {
         var latLngs = new Array(feature.nodes.length);
-console.log(features)
-console.log(latLngs)
+
         for (var j = 0; j < feature.nodes.length; j++) {
           latLngs[j] = feature.nodes[j].latLng;
         }
