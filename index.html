@@ -74,20 +74,28 @@ L.ASCCGIS.Chiayi1936 = L.ASCCGIS.TileLayer.extend({
   }
 });
 
+L.ASCCGIS.Chiayi_12K_1926 = L.ASCCGIS.TileLayer.extend({
+  options: {
+      url: 'http://gis.sinica.edu.tw/googlemap/Chiayi_12K_1926/{z}/{x}/IMG_{x}_{y}_{z}.png',
+  }
+});
+
 
 var osm = new L.OSM.Mapnik(),
     chiayi1900 = new L.ASCCGIS.Chiayi1900({opacity: 0.7}),
     chiayi1909 = new L.ASCCGIS.Chiayi1909({opacity: 0.7}),
     chiayi1931 = new L.ASCCGIS.Chiayi1931({opacity: 0.7}),
     chiayi1932 = new L.ASCCGIS.Chiayi1932({opacity: 0.7}),
-    chiayi1936 = new L.ASCCGIS.Chiayi1936({opacity: 0.7});
+    chiayi1936 = new L.ASCCGIS.Chiayi1936({opacity: 0.7}),
+    chiayi_12K_1926 = new L.ASCCGIS.Chiayi_12K_1926({opacity: 0.7});
 
 var overlayMaps = {
-    "嘉義市街圖(1900)": chiayi1900,
     "嘉義市區改正圖(1909)": chiayi1909,
     "嘉義市街實測圖(1931)": chiayi1931,
     "嘉義市區計畫平面圖(1932)": chiayi1932,
+    "嘉義市街圖(1935)": chiayi1900,
     "嘉義市職業別明細圖(1936)": chiayi1936,
+    "嘉義市內地圖(1940)": chiayi_12K_1926,
 };
 
 // set up the map
